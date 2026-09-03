@@ -100,7 +100,7 @@ struct ContentView: View {
                                     .font(.system(size: 20, weight: .bold))
                                     .foregroundColor(.white)
 
-                                Text("Абонент: \(activeScript?.callerName ?? "—")")
+                                Text("Абонент: \(activeScript?.callerName ?? "-")")
                                     .font(.system(size: 14))
                                     .foregroundColor(.white.opacity(0.6))
                             }
