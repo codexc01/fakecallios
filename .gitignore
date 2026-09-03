@@ -1,0 +1,17 @@
+# xcode
+.DS_Store
+xcuserdata/
+*.xcscmblueprint
+DerivedData/
+*.moved-aside
+*.xcuserstate
+**/*.xcuserdata/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# secrets & configs
+.env
+.env.local
+*.pem
+*.key
